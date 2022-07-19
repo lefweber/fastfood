@@ -1,0 +1,14 @@
+#waiting__container {
+    display: flex;
+}
+
+.waiting {
+    font-size: 3rem;
+    color: rgb(158, 158, 158);
+    font-weight: bolder;
+    margin: 2rem 0;
+}
+
+.ready {
+    color: var(--middle-color);
+}

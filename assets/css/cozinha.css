@@ -1,0 +1,79 @@
+#waiting__container>div,
+#ready__container>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+}
+
+#waiting__container img,
+#ready__container img {
+    margin-right: 2rem;
+}
+
+.order__container {
+    width: 50%;
+}
+
+.btn__panel {
+    background-color: var(--light-gray);
+    width: 20px;
+    height: 20px;
+    padding: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.remove {
+    background-color: rgb(255, 220, 220);
+    color: red;
+}
+
+.ready {
+    background-color: rgb(220, 255, 220);
+    color: green;
+}
+
+strong>p {
+    font-size: 0.9rem;
+}
+
+#waiting__container textarea {
+    width: 100%;
+    height: 100px;
+    padding: 1rem;
+    background-color: var(--light-gray);
+    border: 0;
+    font-size: 0.9rem;
+    color: rgb(80, 80, 80);
+    resize: none;
+    border-radius: 10px;
+    font-family: inherit;
+    border: 1px solid lightgray;
+    margin-top: 1rem;
+  }
+  
+  #waiting__container textarea:focus-visible {
+    border: 0;
+    outline: unset;
+    font-family: inherit;
+    border: 1px solid lightgray;
+  }
+  
+  #waiting__container textarea::placeholder {
+    font-family: inherit;
+  }
+
+  .order__ready {
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0 10px 30px rgb(230, 255, 230);
+  }
+  

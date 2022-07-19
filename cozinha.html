@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Front - Cozinha</title>
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/waiting-ready.css">
+    <link rel="stylesheet" href="assets/css/cozinha.css">
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/images/logo.png" alt="Logotipo">
+            <div id="menu__hamb"></div>
+            <ul id="submenu" class="hideMenu">
+                <a href="index.html"><li class="menu__item" data-onpage="index">Pedidos</li></a>
+                <a href="cozinha.html"><li class="menu__item" data-onpage="cozinha">Cozinha</li></a>
+                <a href="retirada.html"><li class="menu__item" data-onpage="retirada">Retirada</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+      <div id="waiting__container">
+            <h1>Preparando:</h1>
+            <div>
+                <img src="assets/images/burguer.jpg" alt="Burguer">
+                <div class="order__container">
+                    <strong><p>201 - Ricardo</p></strong>
+                    <small>1x Smash da casa</small>
+                </div>
+                <span class="btn__panel remove">X</span>
+                <span class="btn__panel ready">&#10004</span>
+            </div>
+            <div>
+                <img src="assets/images/burguer.jpg" alt="Burguer">
+                <div class="order__container">
+                    <strong><p>201 - Luiza</p></strong>
+                    <small>1x Smash da casa</small>
+                </div>
+                <span class="btn__panel remove">X</span>
+                <span class="btn__panel ready">&#10004</span>
+            </div>
+            <div>
+                <img src="assets/images/burguer.jpg" alt="Burguer">
+                <div class="order__container">
+                    <strong><p>201 - Fernanda</p></strong>
+                    <small>1x Smash da casa</small>
+                </div>
+                <span class="btn__panel remove">X</span>
+                <span class="btn__panel ready">&#10004</span>
+            </div>
+            <div>
+                <img src="assets/images/burguer.jpg" alt="Burguer">
+                <div class="order__container">
+                    <strong><p>201 - Bruna</p></strong>
+                    <small>1x Smash da casa</small>
+                </div>
+                <span class="btn__panel remove">X</span>
+                <span class="btn__panel ready">&#10004</span>
+            </div>
+            <strong><p>Observações:</p></strong>
+            <textarea name="obs" placeholder="Ex.: Retira cebola"></textarea>
+        </div>
+        <div id="division"></div>
+        <div id="ready__container">
+            <h1>Pronto:</h1>
+            <div class="order__ready">
+                <img src="assets/images/burguer.jpg" alt="Burguer">
+                <div class="order__container">
+                    <strong><p>201 - Camila</p></strong>
+                    <small>1x Smash da casa</small>
+                </div>
+                <span class="btn__panel remove">X</span>
+            </div>
+        </div>
+      </div>
+    </section>
+    
+    <script>
+        var onpage = 'cozinha';
+    </script>
+    <script src="assets/js/all.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Front - Pedidos</title>
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/images/logo.png" alt="Logotipo">
+            <div id="menu__hamb"></div>
+            <ul id="submenu" class="hideMenu">
+                <a href="index.html"><li class="menu__item" data-onpage="index">Pedidos</li></a>
+                <a href="cozinha.html"><li class="menu__item" data-onpage="cozinha">Cozinha</li></a>
+                <a href="retirada.html"><li class="menu__item" data-onpage="retirada">Retirada</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div id="search__container">
+            <h1>Seja bem-vindo!</h1>
+            <input type="text" name="search" placeholder="O que você procura?">
+        </div>
+
+        <div id="sub__container">
+            <h2>Categorias</h2>
+            <p>Navegue por categoria</p>
+
+            <div id="category__icons">
+                <div class="category__icon">
+                    <img src="assets/images/categories/combos.png" alt="Combos">
+                    <h2>Combos</h2>
+                </div>
+                <div class="category__icon">
+                    <img src="assets/images/categories/acompanhamentos.png" alt="Acompanhamentos">
+                    <h2>Acompanhamentos</h2>
+                </div>
+                <div class="category__icon">
+                    <img src="assets/images/categories/bebidas.png" alt="Bebidas">
+                    <h2>Bebidas</h2>
+                </div>
+                <div class="category__icon">
+                    <img src="assets/images/categories/sobremesas.png" alt="Sobremesas">
+                    <h2>Sobremesas</h2>
+                </div>
+            </div>
+        </div>
+
+        <div id="sub__container">
+            <h2>Produtos</h2>
+            <p>Selecione um produto para adicionar ao seu pedido</p>
+            <div id="products__icons">
+                <div class="product__icon" data-product="1">
+                    <div class="checked__wrapper" id="wrapper1"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-red.png" alt="Smash da Casa Red">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+                <div class="product__icon" data-product="2">
+                    <div class="checked__wrapper" id="wrapper2"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-red.png" alt="Smash da Casa Red">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+                <div class="product__icon" data-product="3">
+                    <div class="checked__wrapper" id="wrapper3"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-red.png" alt="Smash da Casa Red">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+                <div class="product__icon" data-product="4">
+                    <div class="checked__wrapper" id="wrapper4"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-red.png" alt="Smash da Casa Red">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+            </div>
+
+            <div id="products__icons">
+                <div class="product__icon" data-product="5">
+                    <div class="checked__wrapper" id="wrapper5"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-green.png" alt="Smash da Casa Green">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+                <div class="product__icon" data-product="6">
+                    <div class="checked__wrapper" id="wrapper6"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-green.png" alt="Smash da Casa Green">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+                <div class="product__icon" data-product="7">
+                    <div class="checked__wrapper" id="wrapper7"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-green.png" alt="Smash da Casa Green">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+                <div class="product__icon" data-product="8">
+                    <div class="checked__wrapper" id="wrapper8"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-green.png" alt="Smash da Casa Green">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+            </div>
+            <div id="products__icons">
+                <div class="product__icon" data-product="9">
+                    <div class="checked__wrapper" id="wrapper9"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-yellow.png" alt="Smash da Casa Yellow">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+                <div class="product__icon" data-product="10">
+                    <div class="checked__wrapper" id="wrapper10"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-yellow.png" alt="Smash da Casa Yellow">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+                <div class="product__icon" data-product="11">
+                    <div class="checked__wrapper" id="wrapper11"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-yellow.png" alt="Smash da Casa Yellow">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+                <div class="product__icon" data-product="12">
+                    <div class="checked__wrapper" id="wrapper12"><p>&#10004</p></div>
+                    <img src="assets/images/burguer-yellow.png" alt="Smash da Casa Yellow">
+                    <strong><p>Smash da casa</p></strong>
+                    <small>2x hambúrguer 200g</small>
+                    <strong><p>R$ 30,50</p></strong>
+                </div>
+            </div>
+        </div>
+       
+        <div id="main__buttons__container">
+            <button class="main__buttons">Cancelar</button>
+            <button class="main__buttons">Finalizar pedido</button>
+        </div>
+    </section>
+
+    <div id="modal" class="modal">
+       <div class="modal-content animate">
+            <span class="close">&times;</span>
+            <h1>Revise seu pedido!</h1>
+            <div id="price__container">
+                <img src="assets/images/burguer-red.png" alt="Smash da Casa" id="photoProduct">
+                <div>
+                    <div id="description__container">
+                        <strong><p>Smash da Casa</p></strong>
+                        <p>2x hambúrguer 200g, queijo, cheddar, tomate, alface, picles, cebola, molho da casa.</p>
+                        <div id="quantity__container">
+                            <span id="quantity__remove">-</span>
+                            <input name="quantity" id="quantity" value="1" maxlength="3" disabled>
+                            <span id="quantity__add">+</span>
+                        </div>
+                    </div>
+                </div>
+                <h2>R$ 30,50</h2>
+            </div>
+
+            <div id="toppings__container">
+                <h2>Adicionais</h2>
+                <p>Selecione os ingredientes que você quer adicionar a mais no seu lanche.</p>
+                <div class="toppings">
+                    <div>
+                        <img src="assets/images/bacon.jpg" alt="Bacon">
+                        <div>
+                            <h2>Bacon</h2>
+                            <p>10g</p>
+                        </div>
+                    </div>
+                    <div class="toppings__price">
+                        <h2>R$ 1,00</h2>
+                        <input type="text" class="checkbox" data-selected="0" value="&#10004" readonly>
+                    </div>
+                </div>
+                <div class="toppings">
+                    <div>
+                        <img src="assets/images/queijo.jpg" alt="Cheddar">
+                        <div>
+                            <h2>Cheddar</h2>
+                            <p>10g</p>
+                        </div>
+                    </div>
+                    <div class="toppings__price">
+                        <h2>R$ 1,00</h2>
+                        <input type="text" class="checkbox" data-selected="0" value="&#10004" readonly>
+                    </div>
+                </div>
+                <div class="toppings">
+                    <div>
+                        <img src="assets/images/barbecue.jpg" alt="Barbecue">
+                        <div>
+                            <h2>Molho</h2>
+                            <p>Barbecue</p>
+                        </div>
+                    </div>
+                    <div class="toppings__price">
+                        <h2>R$ 1,00</h2>
+                        <input type="text" class="checkbox" data-selected="0" value="&#10004" readonly>
+                    </div>
+                </div>
+            </div>
+
+            <div id="obs__container">
+                <h2>Observações</h2>
+                <textarea name="observations" id="obs__text" placeholder="Adicione uma observação ao pedido"></textarea>
+            </div>
+
+            <div id="resume__container">
+                <div>
+                    <p>1x Smash da casa</p>
+                    <p>R$ 30,50</p>
+                </div>
+                <p>Total do pedido</p>
+                <h1>R$ 30,50</h1>
+            </div>
+
+            <div id="buttons__container">
+                <button class="buttons">Continuar adicionando</button>
+                <button class="buttons">Adicionar ao pedido</button>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var onpage = 'index';
+    </script>
+    <script src="assets/js/all.js"></script>
+    <script src="assets/js/index.js" type="module"></script>
+</body>
+</html>

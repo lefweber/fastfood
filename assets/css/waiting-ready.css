@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#waiting__container,
+#ready__container {
+    width: 100%;
+}
+
+#ready__container {
+    margin-top: 4rem;
+}
+
+#waiting__container h1,
+#ready__container h1 {
+    margin-bottom: 2rem;
+}
+
+#division {
+    background-color: black;
+    width: 3px;
+    border-radius: 10px;
+    margin: 0 8% 0 8%;
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        flex-direction: row;
+        align-items: unset;
+        justify-content: center;
+    }
+
+    #waiting__container,
+    #ready__container {
+        width: 30%;
+    }
+
+    #ready__container {
+        margin-top: 0;
+    }
+
+    #division {
+        display: block;
+    }
+}
